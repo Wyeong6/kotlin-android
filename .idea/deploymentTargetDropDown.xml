@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="deploymentTargetDropDown">
+    <value>
+      <entry key="MainActivity">
+        <State />
+      </entry>
+      <entry key="alertex">
+        <State />
+      </entry>
+      <entry key="app">
+        <State />
+      </entry>
+      <entry key="app.viewapp">
+        <State />
+      </entry>
+      <entry key="ch6_view">
+        <State />
+      </entry>
+      <entry key="ch7_layout">
+        <State />
+      </entry>
+      <entry key="ch8_event">
+        <State />
+      </entry>
+      <entry key="ch9_resource">
+        <State />
+      </entry>
+      <entry key="constraintlayoutex">
+        <State />
+      </entry>
+      <entry key="framelayoutex">
+        <State />
+      </entry>
+      <entry key="gridlayoutex">
+        <State />
+      </entry>
+      <entry key="linearlayoutex">
+        <State />
+      </entry>
+      <entry key="permissionex">
+        <State />
+      </entry>
+      <entry key="relativelayoutex">
+        <State />
+      </entry>
+      <entry key="userevent">
+        <State>
+          <runningDeviceTargetSelectedWithDropDown>
+            <Target>
+              <type value="RUNNING_DEVICE_TARGET" />
+              <deviceKey>
+                <Key>
+                  <type value="VIRTUAL_DEVICE_PATH" />
+                  <value value="C:\Users\admin\.android\avd\Pixel_3a_API_34_extension_level_7_x86_64.avd" />
+                </Key>
+              </deviceKey>
+            </Target>
+          </runningDeviceTargetSelectedWithDropDown>
+          <timeTargetWasSelectedWithDropDown value="2024-04-16T00:15:21.822314900Z" />
+        </State>
+      </entry>
+      <entry key="viewoption">
+        <State />
+      </entry>
+    </value>
+  </component>
+</project>

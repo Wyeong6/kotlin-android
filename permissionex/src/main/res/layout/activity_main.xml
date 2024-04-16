@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+    <ImageView
+        android:id="@+id/callBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/call"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        />
+    <Button
+        android:id="@+id/dateBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="날짜 입력"
+        app:layout_constraintStart_toEndOf="@+id/callBtn"
+        app:layout_constraintTop_toTopOf="parent"
+        />
+    <Button
+        android:id="@+id/timeBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="48dp"
+        android:text="시간 입력"
+        app:layout_constraintStart_toEndOf="@+id/callBtn"
+        app:layout_constraintTop_toTopOf="@+id/dateBtn"
+        />
+
+    <Button
+        android:id="@+id/alertBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="알림창 띄우기"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/callBtn" />
+
+    <Button
+        android:id="@+id/alertCheckBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="체크박스\n알림창 띄우기"
+        app:layout_constraintStart_toEndOf="@+id/alertBtn"
+        app:layout_constraintTop_toBottomOf="@+id/callBtn" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/customBtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="성별확인"
+        app:layout_constraintTop_toBottomOf="@+id/alertCheckBtn"
+         />
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
