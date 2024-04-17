@@ -14,6 +14,12 @@
       <entry key="app.viewapp">
         <State />
       </entry>
+      <entry key="ch10_notification">
+        <State />
+      </entry>
+      <entry key="ch11_jetpack">
+        <State />
+      </entry>
       <entry key="ch6_view">
         <State />
       </entry>
@@ -29,6 +35,12 @@
       <entry key="constraintlayoutex">
         <State />
       </entry>
+      <entry key="drawlayoutex">
+        <State />
+      </entry>
+      <entry key="fragmentex">
+        <State />
+      </entry>
       <entry key="framelayoutex">
         <State />
       </entry>
@@ -39,6 +51,9 @@
         <State />
       </entry>
       <entry key="permissionex">
+        <State />
+      </entry>
+      <entry key="recyclerviewex">
         <State />
       </entry>
       <entry key="relativelayoutex">
@@ -61,6 +76,9 @@
         </State>
       </entry>
       <entry key="viewoption">
+        <State />
+      </entry>
+      <entry key="viewpage2ex">
         <State />
       </entry>
     </value>

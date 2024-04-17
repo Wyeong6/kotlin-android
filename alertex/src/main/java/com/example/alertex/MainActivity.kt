@@ -11,14 +11,18 @@ import android.media.RingtoneManager
 import android.net.Uri
 import android.os.Build
 import android.os.Bundle
+import android.os.SystemClock
 import android.os.VibrationEffect
 import android.os.Vibrator
 import android.os.VibratorManager
+import android.widget.Button
 import androidx.activity.enableEdgeToEdge
 import androidx.appcompat.app.AppCompatActivity
 import androidx.core.app.NotificationCompat
 import androidx.core.view.ViewCompat
 import androidx.core.view.WindowInsetsCompat
+import kotlin.concurrent.thread
+
 
 class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -61,11 +65,38 @@ class MainActivity : AppCompatActivity() {
             builder.setContentTitle("알림 제목")
             builder.setContentText("알림 내용")
 
+            // 알림 취소 막기(동작 하지 않음!! 이유모름)
+            // 알림 터치해도 사라지지 않음
+//            builder.setAutoCancel(false)
+//             알림 스와이프 해도 사라지지 않음
+//            builder.setOngoing(true)
+
+            // 프로그래스 바
+            builder.setProgress(100,0,false)
+
+            thread {
+                for (i in 1 .. 100) {
+                    builder.setProgress(100,i,false)
+                    manager.notify(11,builder.build())
+                    SystemClock.sleep(100)
+                }
+            }
+
+
+
             //알림 발생
             manager.notify(11,builder.build())
         } else {
             builder = NotificationCompat.Builder(this)
         }
+
+        val alert_close_btn = findViewById<Button>(R.id.alert_close_Btn)
+        alert_close_btn.setOnClickListener {
+            // 알림 제거
+           manager.cancel(11)
+        }
+
+
     }
 
 

@@ -12,18 +12,24 @@
             <option value="$PROJECT_DIR$/alertex" />
             <option value="$PROJECT_DIR$/app" />
             <option value="$PROJECT_DIR$/app/viewapp" />
+            <option value="$PROJECT_DIR$/ch10_notification" />
+            <option value="$PROJECT_DIR$/ch11_jetpack" />
             <option value="$PROJECT_DIR$/ch6_view" />
             <option value="$PROJECT_DIR$/ch7_layout" />
             <option value="$PROJECT_DIR$/ch8_event" />
             <option value="$PROJECT_DIR$/ch9_resource" />
             <option value="$PROJECT_DIR$/constraintlayoutex" />
+            <option value="$PROJECT_DIR$/drawlayoutex" />
+            <option value="$PROJECT_DIR$/fragmentex" />
             <option value="$PROJECT_DIR$/framelayoutex" />
             <option value="$PROJECT_DIR$/gridlayoutex" />
             <option value="$PROJECT_DIR$/linearlayoutex" />
             <option value="$PROJECT_DIR$/permissionex" />
+            <option value="$PROJECT_DIR$/recyclerviewex" />
             <option value="$PROJECT_DIR$/relativelayoutex" />
             <option value="$PROJECT_DIR$/userevent" />
             <option value="$PROJECT_DIR$/viewoption" />
+            <option value="$PROJECT_DIR$/viewpage2ex" />
           </set>
         </option>
         <option name="resolveExternalAnnotations" value="false" />
